@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+            <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My wish list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='chapter13.css'>
+
+</head>
+
+<body>
+    <button type="button" class="btn btn-outline-primary" onclick="window.location.href='../index.html'">Go Back</button>
+
+    <div id="listPage">
+
+        <h1>My Wish List</h1>
+
+        <div id="formArea">
+            <label>What I want:
+                <input type="text" id="iWant" />
+            </label>
+            <button type="button" id="addIt">Add It!</button>
+            <br>
+            <br>
+            <button type="button" id="printable">Print Your List</button>
+        </div>
+        <ul id="wishList"></ul>
+    </div>
+    <script src='chapter13.js'></script>
+</body>
+
+</html>
